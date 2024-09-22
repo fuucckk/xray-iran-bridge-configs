@@ -1,4 +1,4 @@
-FROM hub.hamdocker.ir/golang as builder
+FROM docker.arvancloud.ir/golang as builder
 
 WORKDIR /root/go/
 COPY . .

@@ -2,7 +2,7 @@
 version: '3.8'
 services:
   xray-ofelia:
-    image: hub.hamdocker.ir/mcuadros/ofelia:latest
+    image: docker.arvancloud.ir/mcuadros/ofelia:latest
     container_name: xray-ofelia
     command: daemon --docker
     volumes:
