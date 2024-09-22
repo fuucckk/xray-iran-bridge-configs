@@ -22,7 +22,9 @@ func main() {
 
 	var outboundTags []string
 	for _, configBase := range configBases {
-		outboundTags = append(outboundTags, configBase.Tag)
+		if configBase.Tag != "direct-out" {
+			outboundTags = append(outboundTags, configBase.Tag)
+		}
 	}
 
 	err := os.WriteFile("configs/outbounds.json", []byte("{\"outbounds\":"+configsStr+"}"), 0644)

@@ -8,11 +8,10 @@
         "selector": [
           "node1",
           "node2",
-          "node3",
-          "direct-out"
+          "node3"
         ],
         "strategy": {
-          "type":"leastload"
+          "type":"leastLoad"
         }
       }
     ],
@@ -107,7 +106,7 @@
     "pingConfig": {
       "destination": "http://www.google.com/gen_204",
       "interval": "5m",
-      "connectivity": "http://connectivitycheck.platform.hicloud.com/generate_204",
+      "connectivity": "http://www.google.com/gen_204",
       "timeout": "3s",
       "sampling": 5
     }
