@@ -11,7 +11,7 @@
         "strategy": {
           "type":"leastLoad",
           "settings": {
-            "baselines": 10,
+            "baselines": null,
             "expected": 10
           }
         }
